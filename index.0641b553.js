@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"5hodC":[function(require,module,exports,__globalThis) {
+})({"9w8YQ":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -631,7 +631,7 @@ function scrollToBottom() {
 function getAssistantResponse(userMessage) {
     return new Promise((resolve)=>{
         setTimeout(()=>{
-            resolve("\uB098\uB294 \uAC00\uC9DC ChatGPT\uC57C.: " + userMessage);
+            resolve("\uB098\uB294 \uAC00\uC9DC ChatGPT\uC57C : " + userMessage);
         }, 1500);
     });
 }
@@ -650,6 +650,6 @@ messageForm.addEventListener("submit", async (e)=>{
     scrollToBottom();
 });
 
-},{}]},["5hodC","bNKaB"], "bNKaB", "parcelRequire94c2")
+},{}]},["9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
 
 //# sourceMappingURL=index.0641b553.js.map
